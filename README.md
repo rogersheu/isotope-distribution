@@ -2,13 +2,13 @@
 Calculates most likely isotope masses, especially for larger compounds
 
 
-# Roger Sheu
-# Isotope mass predictor
+Roger Sheu
+Isotope mass predictor
 
-# Initially made for C12H36O4Si5 (L5 Siloxane), but should be useful for other compounds
+Initially made for C12H36O4Si5 (L5 Siloxane), but should be useful for other compounds
 
-# Put in parent species, not ion.
+Put in parent species, not ion.
 
-# Output: Writes distribution of isotope ions (by mass) to isotope_dist.csv (in root directory)
+Output: Writes distribution of isotope ions (by mass) to isotope_dist.csv (in root directory)
 
-# Future improvement: Include formulas in a separate column
+Future improvement: Include formulas in a separate column
