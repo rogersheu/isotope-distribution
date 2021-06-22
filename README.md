@@ -1,12 +1,10 @@
 # isotope-distribution
-Calculates most likely isotope masses, especially for larger compounds
+## Calculates most likely isotope masses, especially for larger compounds
 
-Isotope mass predictor
+Initially made for siloxanes, including D3/D4/D5/D6/D7 and C12H36O4Si5 (L5 Siloxane), but should be useful for other compounds.
 
-Initially made for C12H36O4Si5 (L5 Siloxane), but should be useful for other compounds
+Input: Parent species, not ion. Only accepts C, H, O, N, S, and Si counts.
 
-Put in parent species, not ion.
+Output: Writes distribution of isotope ions (by mass) to isotope_dist.csv (in root directory).
 
-Output: Writes distribution of isotope ions (by mass) to isotope_dist.csv (in root directory)
-
-Future improvement: Include formulas in a separate column
+Future improvement: Include corresponding formulas in a separate column.
